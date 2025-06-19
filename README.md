@@ -1,12 +1,41 @@
-# React + Vite
+# 📝 To-Do App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and elegant **To-Do List** application built using **React** and **Tailwind CSS**, with data persistence via **LocalStorage**. Easily manage your daily tasks with an intuitive interface and responsive design.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- ✅ Add new tasks
+- 🗑️ Delete individual tasks
+- ✔️ Mark tasks as completed
+- 🔁 Persistent storage using `LocalStorage`
+- 📱 Responsive design with Tailwind CSS
+- 💡 Clean and minimal UI
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🔧 Tech Stack
+
+- [React](https://reactjs.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [LocalStorage API](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage)
+
+---
+
+## 🛠️ Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/Shaizaan-Hussain/To-Do-App.git
+
+# Navigate to the project directory
+cd To-Do-App
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm run dev
+
+
